@@ -151,11 +151,4 @@ app.listen(PORT, () => {
   console.log(`🚀 Serveur démarré sur le port ${PORT}`);
   console.log(`📡 Environnement: ${process.env.NODE_ENV || 'development'}`);
 });
-```
 
-### .gitignore
-```
-node_modules/
-.env
-.DS_Store
-*.log
